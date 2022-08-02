@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {display: flex; justify-content: space-between;}
+
+ #navbar :nth-child(1) {
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+#p1 {text-align: center;
+text-transform: capitalize;
+font-size: 40px;
+word-spacing: 20px;
+font-weight: bold;
+
+}
+#p2 {
+    text-align: center;
+text-decoration: none;
+font-weight: 400;
+}
+.containerfluid {
+    margin: 0px 10px;
+}
+#customline {
+    border-bottom: 2px solid black;
+    margin: 30px;
+}
+
+#sec1 {
+    display: flex;
+}
+#sec1 div h4{
+    margin: 0px 30px;
+}
+
+#sec1 div p{
+    margin: 10px 40px;
+}
+
+#top{
+    margin-top: 30px;
+}
+#top1{
+    margin-top: 30px;
+}
+
+#top2{
+    font-weight: bold;
+}
+
+
+#sec6 {
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+
+#customline1 {
+    border-bottom: 2px solid rgb(179, 177, 177);
+    margin: 30px;
+}
+
+#sec5 {
+    display: flex;
+    gap: 30px;
+}
+
+
+.customline2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid black;
+}
+
+#p4{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#sec7{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#imgs {
+    text-align: center;
+}
+
+#sec8{
+    text-align: center;
+    border: 1px solid black;
+    margin: 30px 0;
+    padding: 50px 20px;
+    gap: 40px;
+}
+#btn{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 0px 8px;
+}
+
+
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+.links a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+
+#footer> div{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+#footer h1{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
